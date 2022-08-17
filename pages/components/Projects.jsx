@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import test from "../../assets/images/boceto.jpg";
 import { motion, useAnimation } from "framer-motion";
 
 const Projects = () => {
@@ -43,10 +42,12 @@ const Projects = () => {
             >
               <div className="!w-[550px]">
                 <Image
-                  src={test}
+                  src={"/images/boceto.jpg"}
                   alt="Buenas tardes"
+                  width={550}
+                  height={500}
+                  objectFit="cover"
                   className="object-cover"
-                  loading="eager"
                 />
               </div>
 
