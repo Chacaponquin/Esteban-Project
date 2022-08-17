@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("../assets/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../assets/font/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Extra Bold";
+  src: url("../assets/font/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("../assets/font/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Black";
+  src: url("../assets/font/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Italic Bold";
+  src: url("../assets/font/Montserrat-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Italic Black";
+  src: url("../assets/font/Montserrat-BlackItalic.ttf");
+}
+
+* {
+  font-family: "Montserrat Regular";
+}
+
+.project-card img {
+  clip-path: polygon(21% 0, 96% 0, 75% 100%, 0% 100%);
+}
